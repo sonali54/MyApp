@@ -10,4 +10,8 @@ public class User {
     public boolean authenticate(String inputPassword) {
         return this.password.equals(inputPassword);
     }
+
+    public static void main(String[] args) {
+       System.out.println("Failed login detected..");
+   }
 }
