@@ -12,6 +12,6 @@ public class User {
     }
 
     public static void main(String[] args) {
-       System.out.println("Failed login detected..");
+       System.out.println("Authentication issue detected. Failed login detected..");
    }
 }
